@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12748E0A23EDCEBF007B8F66 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0923EDCEBF007B8F66 /* TabbedView.swift */; };
+		12748E0D23EDD80D007B8F66 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0C23EDD80D007B8F66 /* Resources.swift */; };
+		12918EF123FED75B00FFCD05 /* LocalNotMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12918EF023FED75B00FFCD05 /* LocalNotMan.swift */; };
 		12A6147123E461E000561100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147023E461E000561100 /* AppDelegate.swift */; };
 		12A6147323E461E000561100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147223E461E000561100 /* SceneDelegate.swift */; };
-		12A6147523E461E000561100 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147423E461E000561100 /* ContentView.swift */; };
 		12A6147723E461E200561100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A6147623E461E200561100 /* Assets.xcassets */; };
 		12A6147A23E461E200561100 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12A6147923E461E200561100 /* Preview Assets.xcassets */; };
 		12A6147D23E461E200561100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12A6147B23E461E200561100 /* LaunchScreen.storyboard */; };
+		12A6148523E4628F00561100 /* DadJokesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6148423E4628F00561100 /* DadJokesFetcher.swift */; };
+		12A6148923E46ED200561100 /* DadJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6148823E46ED200561100 /* DadJoke.swift */; };
+		12B8F48623F18A79004D6416 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B8F48523F18A79004D6416 /* JokeView.swift */; };
+		12BC27DE23EF0EFB0006D06C /* SearchJokesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC27DD23EF0EFB0006D06C /* SearchJokesFetcher.swift */; };
+		12BC27E123F181CE0006D06C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC27E023F181CE0006D06C /* ActivityIndicator.swift */; };
+		12BC27E723F182E50006D06C /* TestJokesList_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BC27E623F182E50006D06C /* TestJokesList_View.swift */; };
+		12E3A1CD23F1A17C00B4FBA7 /* TestSearchList_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1CC23F1A17C00B4FBA7 /* TestSearchList_View.swift */; };
+		12E3A1CF23F2CB6300B4FBA7 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1CE23F2CB6300B4FBA7 /* FavView.swift */; };
+		12E3A1D123F2D75300B4FBA7 /* FavouritesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1D023F2D75300B4FBA7 /* FavouritesFetcher.swift */; };
+		12E3A1D323F2E56A00B4FBA7 /* DeleteSaveData_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1D223F2E56A00B4FBA7 /* DeleteSaveData_View.swift */; };
+		12E3A1D623F2F37D00B4FBA7 /* SystemServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1D523F2F37D00B4FBA7 /* SystemServices.swift */; };
+		12E3A1D823F2FAB000B4FBA7 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E3A1D723F2FAB000B4FBA7 /* Connectivity.swift */; };
+		12F5267E23EDBDBA00320E2E /* DadJokesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5267D23EDBDBA00320E2E /* DadJokesAPI.swift */; };
+		12F5268023EDCBF900320E2E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5267F23EDCBF900320E2E /* FeedView.swift */; };
+		12F5268223EDCC0100320E2E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F5268123EDCC0100320E2E /* SearchView.swift */; };
+		49DDCFB8C881C51EC9964771 /* Pods_DadJoke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EA9CA9C0D019EF20BB06A54 /* Pods_DadJoke.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12748E0923EDCEBF007B8F66 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
+		12748E0C23EDD80D007B8F66 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		12918EF023FED75B00FFCD05 /* LocalNotMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotMan.swift; sourceTree = "<group>"; };
 		12A6146D23E461E000561100 /* DadJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A6147023E461E000561100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		12A6147223E461E000561100 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		12A6147423E461E000561100 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12A6147623E461E200561100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12A6147923E461E200561100 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12A6147C23E461E200561100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12A6147E23E461E200561100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A6148423E4628F00561100 /* DadJokesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesFetcher.swift; sourceTree = "<group>"; };
+		12A6148823E46ED200561100 /* DadJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJoke.swift; sourceTree = "<group>"; };
+		12B8F48523F18A79004D6416 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
+		12BC27DD23EF0EFB0006D06C /* SearchJokesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchJokesFetcher.swift; sourceTree = "<group>"; };
+		12BC27E023F181CE0006D06C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		12BC27E623F182E50006D06C /* TestJokesList_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestJokesList_View.swift; sourceTree = "<group>"; };
+		12E3A1CC23F1A17C00B4FBA7 /* TestSearchList_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSearchList_View.swift; sourceTree = "<group>"; };
+		12E3A1CE23F2CB6300B4FBA7 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		12E3A1D023F2D75300B4FBA7 /* FavouritesFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesFetcher.swift; sourceTree = "<group>"; };
+		12E3A1D223F2E56A00B4FBA7 /* DeleteSaveData_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteSaveData_View.swift; sourceTree = "<group>"; };
+		12E3A1D523F2F37D00B4FBA7 /* SystemServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemServices.swift; sourceTree = "<group>"; };
+		12E3A1D723F2FAB000B4FBA7 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		12F5267D23EDBDBA00320E2E /* DadJokesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesAPI.swift; sourceTree = "<group>"; };
+		12F5267F23EDCBF900320E2E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		12F5268123EDCC0100320E2E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2EA9CA9C0D019EF20BB06A54 /* Pods_DadJoke.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DadJoke.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C19852744803EF23B33AFD02 /* Pods-DadJoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJoke.debug.xcconfig"; path = "Target Support Files/Pods-DadJoke/Pods-DadJoke.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5A98C3348AB4B07FCB923D /* Pods-DadJoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DadJoke.release.xcconfig"; path = "Target Support Files/Pods-DadJoke/Pods-DadJoke.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49DDCFB8C881C51EC9964771 /* Pods_DadJoke.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12748E0B23EDD03E007B8F66 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				12918EEF23FED6DB00FFCD05 /* Notifications */,
+				12E3A1D423F2F36400B4FBA7 /* FavJokes */,
+				12A6148823E46ED200561100 /* DadJoke.swift */,
+				12F5267D23EDBDBA00320E2E /* DadJokesAPI.swift */,
+				12A6148423E4628F00561100 /* DadJokesFetcher.swift */,
+				12BC27DD23EF0EFB0006D06C /* SearchJokesFetcher.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		127DFA5923EEFD27002B70CD /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				12BC27DF23F1816B0006D06C /* UI Helper  */,
+				12A6147223E461E000561100 /* SceneDelegate.swift */,
+				12A6147023E461E000561100 /* AppDelegate.swift */,
+				12A6147B23E461E200561100 /* LaunchScreen.storyboard */,
+				12A6147623E461E200561100 /* Assets.xcassets */,
+				12E3A1D723F2FAB000B4FBA7 /* Connectivity.swift */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		127DFA5A23EEFD3D002B70CD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				12BC27E823F185330006D06C /* Testing */,
+				12F5267F23EDCBF900320E2E /* FeedView.swift */,
+				12F5268123EDCC0100320E2E /* SearchView.swift */,
+				12E3A1CE23F2CB6300B4FBA7 /* FavView.swift */,
+				12B8F48523F18A79004D6416 /* JokeView.swift */,
+				12748E0923EDCEBF007B8F66 /* TabbedView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		12918EEF23FED6DB00FFCD05 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				12918EF023FED75B00FFCD05 /* LocalNotMan.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
 		12A6146423E461E000561100 = {
 			isa = PBXGroup;
 			children = (
 				12A6146F23E461E000561100 /* DadJoke */,
 				12A6146E23E461E000561100 /* Products */,
+				76D0EC3116DC91DC3D3AC474 /* Pods */,
+				5E9A24A431B40030909BE74C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +144,10 @@
 		12A6146F23E461E000561100 /* DadJoke */ = {
 			isa = PBXGroup;
 			children = (
-				12A6147023E461E000561100 /* AppDelegate.swift */,
-				12A6147223E461E000561100 /* SceneDelegate.swift */,
-				12A6147423E461E000561100 /* ContentView.swift */,
-				12A6147623E461E200561100 /* Assets.xcassets */,
-				12A6147B23E461E200561100 /* LaunchScreen.storyboard */,
 				12A6147E23E461E200561100 /* Info.plist */,
+				127DFA5A23EEFD3D002B70CD /* UI */,
+				127DFA5923EEFD27002B70CD /* etc */,
+				12748E0B23EDD03E007B8F66 /* API */,
 				12A6147823E461E200561100 /* Preview Content */,
 			);
 			path = DadJoke;
@@ -75,6 +161,51 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		12BC27DF23F1816B0006D06C /* UI Helper  */ = {
+			isa = PBXGroup;
+			children = (
+				12748E0C23EDD80D007B8F66 /* Resources.swift */,
+				12BC27E023F181CE0006D06C /* ActivityIndicator.swift */,
+			);
+			path = "UI Helper ";
+			sourceTree = "<group>";
+		};
+		12BC27E823F185330006D06C /* Testing */ = {
+			isa = PBXGroup;
+			children = (
+				12BC27E623F182E50006D06C /* TestJokesList_View.swift */,
+				12E3A1CC23F1A17C00B4FBA7 /* TestSearchList_View.swift */,
+				12E3A1D223F2E56A00B4FBA7 /* DeleteSaveData_View.swift */,
+			);
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		12E3A1D423F2F36400B4FBA7 /* FavJokes */ = {
+			isa = PBXGroup;
+			children = (
+				12E3A1D023F2D75300B4FBA7 /* FavouritesFetcher.swift */,
+				12E3A1D523F2F37D00B4FBA7 /* SystemServices.swift */,
+			);
+			path = FavJokes;
+			sourceTree = "<group>";
+		};
+		5E9A24A431B40030909BE74C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EA9CA9C0D019EF20BB06A54 /* Pods_DadJoke.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76D0EC3116DC91DC3D3AC474 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C19852744803EF23B33AFD02 /* Pods-DadJoke.debug.xcconfig */,
+				DD5A98C3348AB4B07FCB923D /* Pods-DadJoke.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12A6148123E461E200561100 /* Build configuration list for PBXNativeTarget "DadJoke" */;
 			buildPhases = (
+				5BDB71DB025BB12ACE9A3DCC /* [CP] Check Pods Manifest.lock */,
 				12A6146923E461E000561100 /* Sources */,
 				12A6146A23E461E000561100 /* Frameworks */,
 				12A6146B23E461E000561100 /* Resources */,
+				804A2D2E92913E1AA2825EF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,14 +274,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5BDB71DB025BB12ACE9A3DCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DadJoke-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804A2D2E92913E1AA2825EF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DadJoke/Pods-DadJoke-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DadJoke/Pods-DadJoke-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DadJoke/Pods-DadJoke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		12A6146923E461E000561100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E3A1D323F2E56A00B4FBA7 /* DeleteSaveData_View.swift in Sources */,
+				12F5268023EDCBF900320E2E /* FeedView.swift in Sources */,
+				12E3A1D823F2FAB000B4FBA7 /* Connectivity.swift in Sources */,
+				12B8F48623F18A79004D6416 /* JokeView.swift in Sources */,
+				12F5267E23EDBDBA00320E2E /* DadJokesAPI.swift in Sources */,
 				12A6147123E461E000561100 /* AppDelegate.swift in Sources */,
+				12748E0D23EDD80D007B8F66 /* Resources.swift in Sources */,
+				12E3A1D623F2F37D00B4FBA7 /* SystemServices.swift in Sources */,
+				12BC27E123F181CE0006D06C /* ActivityIndicator.swift in Sources */,
+				12E3A1CF23F2CB6300B4FBA7 /* FavView.swift in Sources */,
+				12E3A1CD23F1A17C00B4FBA7 /* TestSearchList_View.swift in Sources */,
+				12A6148923E46ED200561100 /* DadJoke.swift in Sources */,
+				12BC27DE23EF0EFB0006D06C /* SearchJokesFetcher.swift in Sources */,
+				12748E0A23EDCEBF007B8F66 /* TabbedView.swift in Sources */,
+				12E3A1D123F2D75300B4FBA7 /* FavouritesFetcher.swift in Sources */,
+				12F5268223EDCC0100320E2E /* SearchView.swift in Sources */,
+				12918EF123FED75B00FFCD05 /* LocalNotMan.swift in Sources */,
+				12BC27E723F182E50006D06C /* TestJokesList_View.swift in Sources */,
 				12A6147323E461E000561100 /* SceneDelegate.swift in Sources */,
-				12A6147523E461E000561100 /* ContentView.swift in Sources */,
+				12A6148523E4628F00561100 /* DadJokesFetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,18 +474,19 @@
 		};
 		12A6148223E461E200561100 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C19852744803EF23B33AFD02 /* Pods-DadJoke.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DadJoke/Preview Content\"";
-				DEVELOPMENT_TEAM = 3A7RUJ2J48;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DadJoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fsociety.DadJoke;
+				PRODUCT_BUNDLE_IDENTIFIER = fsociety8.DadJoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,18 +495,19 @@
 		};
 		12A6148323E461E200561100 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD5A98C3348AB4B07FCB923D /* Pods-DadJoke.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"DadJoke/Preview Content\"";
-				DEVELOPMENT_TEAM = 3A7RUJ2J48;
+				DEVELOPMENT_TEAM = 86R6TV7GW4;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DadJoke/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fsociety.DadJoke;
+				PRODUCT_BUNDLE_IDENTIFIER = fsociety8.DadJoke;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
