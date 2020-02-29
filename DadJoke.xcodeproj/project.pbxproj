@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		12748E0A23EDCEBF007B8F66 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0923EDCEBF007B8F66 /* TabbedView.swift */; };
 		12748E0D23EDD80D007B8F66 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0C23EDD80D007B8F66 /* Resources.swift */; };
+		127F52C0240AA4E00094A6D1 /* feed.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 127F52BC240AA4E00094A6D1 /* feed.PNG */; };
+		127F52C1240AA4E00094A6D1 /* search_default.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 127F52BD240AA4E00094A6D1 /* search_default.PNG */; };
+		127F52C2240AA4E00094A6D1 /* joke_view.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 127F52BE240AA4E00094A6D1 /* joke_view.PNG */; };
+		127F52C3240AA4E00094A6D1 /* fav.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 127F52BF240AA4E00094A6D1 /* fav.PNG */; };
+		127F52C5240AA5490094A6D1 /* search.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 127F52C4240AA5490094A6D1 /* search.PNG */; };
 		12918EF123FED75B00FFCD05 /* LocalNotMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12918EF023FED75B00FFCD05 /* LocalNotMan.swift */; };
 		12A6147123E461E000561100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147023E461E000561100 /* AppDelegate.swift */; };
 		12A6147323E461E000561100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147223E461E000561100 /* SceneDelegate.swift */; };
@@ -36,6 +41,11 @@
 /* Begin PBXFileReference section */
 		12748E0923EDCEBF007B8F66 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		12748E0C23EDD80D007B8F66 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		127F52BC240AA4E00094A6D1 /* feed.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feed.PNG; sourceTree = "<group>"; };
+		127F52BD240AA4E00094A6D1 /* search_default.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_default.PNG; sourceTree = "<group>"; };
+		127F52BE240AA4E00094A6D1 /* joke_view.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joke_view.PNG; sourceTree = "<group>"; };
+		127F52BF240AA4E00094A6D1 /* fav.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.PNG; sourceTree = "<group>"; };
+		127F52C4240AA5490094A6D1 /* search.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.PNG; sourceTree = "<group>"; };
 		12918EF023FED75B00FFCD05 /* LocalNotMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotMan.swift; sourceTree = "<group>"; };
 		12A6146D23E461E000561100 /* DadJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A6147023E461E000561100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +125,18 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		127F52BB240AA4C60094A6D1 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				127F52BC240AA4E00094A6D1 /* feed.PNG */,
+				127F52BD240AA4E00094A6D1 /* search_default.PNG */,
+				127F52BE240AA4E00094A6D1 /* joke_view.PNG */,
+				127F52BF240AA4E00094A6D1 /* fav.PNG */,
+				127F52C4240AA5490094A6D1 /* search.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		12918EEF23FED6DB00FFCD05 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +166,7 @@
 		12A6146F23E461E000561100 /* DadJoke */ = {
 			isa = PBXGroup;
 			children = (
+				127F52BB240AA4C60094A6D1 /* Screenshots */,
 				12A6147E23E461E200561100 /* Info.plist */,
 				127DFA5A23EEFD3D002B70CD /* UI */,
 				127DFA5923EEFD27002B70CD /* etc */,
@@ -266,6 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				127F52C0240AA4E00094A6D1 /* feed.PNG in Resources */,
+				127F52C3240AA4E00094A6D1 /* fav.PNG in Resources */,
+				127F52C1240AA4E00094A6D1 /* search_default.PNG in Resources */,
+				127F52C2240AA4E00094A6D1 /* joke_view.PNG in Resources */,
+				127F52C5240AA5490094A6D1 /* search.PNG in Resources */,
 				12A6147D23E461E200561100 /* LaunchScreen.storyboard in Resources */,
 				12A6147A23E461E200561100 /* Preview Assets.xcassets in Resources */,
 				12A6147723E461E200561100 /* Assets.xcassets in Resources */,
