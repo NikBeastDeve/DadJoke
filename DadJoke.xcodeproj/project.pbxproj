@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		12748E0A23EDCEBF007B8F66 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0923EDCEBF007B8F66 /* TabbedView.swift */; };
 		12748E0D23EDD80D007B8F66 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12748E0C23EDD80D007B8F66 /* Resources.swift */; };
+		127F52CB240AAAD50094A6D1 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52C6240AAAD50094A6D1 /* search.png */; };
+		127F52CC240AAAD50094A6D1 /* feed.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52C7240AAAD50094A6D1 /* feed.png */; };
+		127F52CD240AAAD50094A6D1 /* fav.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52C8240AAAD50094A6D1 /* fav.png */; };
+		127F52CE240AAAD50094A6D1 /* joke_view.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52C9240AAAD50094A6D1 /* joke_view.png */; };
+		127F52CF240AAAD50094A6D1 /* search_default.png in Resources */ = {isa = PBXBuildFile; fileRef = 127F52CA240AAAD50094A6D1 /* search_default.png */; };
 		12918EF123FED75B00FFCD05 /* LocalNotMan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12918EF023FED75B00FFCD05 /* LocalNotMan.swift */; };
 		12A6147123E461E000561100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147023E461E000561100 /* AppDelegate.swift */; };
 		12A6147323E461E000561100 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A6147223E461E000561100 /* SceneDelegate.swift */; };
@@ -36,6 +41,11 @@
 /* Begin PBXFileReference section */
 		12748E0923EDCEBF007B8F66 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		12748E0C23EDD80D007B8F66 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		127F52C6240AAAD50094A6D1 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		127F52C7240AAAD50094A6D1 /* feed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feed.png; sourceTree = "<group>"; };
+		127F52C8240AAAD50094A6D1 /* fav.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fav.png; sourceTree = "<group>"; };
+		127F52C9240AAAD50094A6D1 /* joke_view.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joke_view.png; sourceTree = "<group>"; };
+		127F52CA240AAAD50094A6D1 /* search_default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_default.png; sourceTree = "<group>"; };
 		12918EF023FED75B00FFCD05 /* LocalNotMan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotMan.swift; sourceTree = "<group>"; };
 		12A6146D23E461E000561100 /* DadJoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12A6147023E461E000561100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +128,11 @@
 		127F52BB240AA4C60094A6D1 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				127F52C8240AAAD50094A6D1 /* fav.png */,
+				127F52C7240AAAD50094A6D1 /* feed.png */,
+				127F52C9240AAAD50094A6D1 /* joke_view.png */,
+				127F52CA240AAAD50094A6D1 /* search_default.png */,
+				127F52C6240AAAD50094A6D1 /* search.png */,
 			);
 			path = Screenshots;
 			sourceTree = "<group>";
@@ -275,8 +290,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				12A6147D23E461E200561100 /* LaunchScreen.storyboard in Resources */,
+				127F52CC240AAAD50094A6D1 /* feed.png in Resources */,
 				12A6147A23E461E200561100 /* Preview Assets.xcassets in Resources */,
+				127F52CD240AAAD50094A6D1 /* fav.png in Resources */,
 				12A6147723E461E200561100 /* Assets.xcassets in Resources */,
+				127F52CE240AAAD50094A6D1 /* joke_view.png in Resources */,
+				127F52CB240AAAD50094A6D1 /* search.png in Resources */,
+				127F52CF240AAAD50094A6D1 /* search_default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
