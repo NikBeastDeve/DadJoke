@@ -12,6 +12,8 @@ The app that lets you view quirky dad jokes. Built using [icanhazdadjoke API](ht
 
 <img align="left" width="500" height="500" src="https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/search_default.png">
 
+**Save your favourite jokes and view it right away**
+
 <img align="right" width="500" height="500" src="https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/joke_view.png">
 
 <img align="left" width="500" height="500" src="https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/fav.png">
