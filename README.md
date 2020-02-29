@@ -1,6 +1,6 @@
 # DadJoke
 
-The app that lets you view quirky dad jokes. Built using [icanhazdadjoke API](https://icanhazdadjoke.com) and supported bu SwiftUI. 
+The app that lets you view quirky dad jokes. Built using [icanhazdadjoke API](https://icanhazdadjoke.com) and supported by SwiftUI. 
 
 ## Features
 
