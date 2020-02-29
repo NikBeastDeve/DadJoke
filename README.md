@@ -4,4 +4,4 @@ The app that lets you view quirky dad jokes. Built using [icanhazdadjoke API](ht
 
 ## Features
 
-![Feed](https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/feed.PNG?v=400&s=200)
+![Feed](https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/feed.PNG)
