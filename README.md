@@ -6,7 +6,7 @@ The app that lets you view quirky dad jokes. Built using [icanhazdadjoke API](ht
 
 **Huge variety of any dad jokes possible!**
 
-![Feed](https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/feed.png)
+<img align="left" width="500" height="250" src="https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/search.png">
 
 ![Search](https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/search.png)
 ![Search_Default](https://github.com/NikBeastDeve/DadJoke/blob/master/DadJoke/Screenshots/search_default.png)
